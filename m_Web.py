@@ -1,7 +1,7 @@
 import view
 
 def All_Web():
-    new_data = view.All_view()
+    new_data = view.Web_view()
     style = 'style = "font-size:20px;"'
     html = '<html>\n <head></head>\n <body>\n'
     for i in new_data:
